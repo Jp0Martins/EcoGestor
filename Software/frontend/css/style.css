@@ -1,0 +1,52 @@
+body {
+    background: #f7f8fa;
+}
+
+.sidebar {
+    width: 220px;
+    min-height: 100vh;
+    background: #1b263b;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1030;
+    transition: all 0.2s;
+}
+
+.sidebar .nav-link,
+.sidebar .navbar-brand {
+    color: #fff;
+}
+
+.sidebar .nav-link.active,
+.sidebar .nav-link:hover {
+    background: #415a77;
+    color: #fff;
+}
+
+.sidebar .nav-link i {
+    margin-right: 10px;
+}
+
+.sidebar .navbar-brand {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.main-content {
+    margin-left: 220px;
+    padding: 30px 40px 30px 40px;
+}
+
+.card-kpi {
+    min-width: 200px;
+}
+
+.progress-bar {
+    transition: width 0.7s;
+}
+
+.table thead {
+    background: #e0e1dd;
+}
