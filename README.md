@@ -19,7 +19,7 @@ Com base na composição do repositório:
 > **Pré-requisitos** (ajuste conforme seu projeto):
 - [Node.js](https://nodejs.org/) instalado
 - [Python 3](https://www.python.org/) instalado
-- [Java JDK](https://www.oracle.com/java/technologies/downloads/) instalado (se houver serviços Java)
+- [Java JDK](https://www.oracle.com/java/technologies/downloads/) instalado
 - Git instalado
 
 ### 1. Clonar o repositório
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-### 4. Executar a parte Java (se aplicável)
+### 4. Executar a parte Java
 ```bash
 cd <pasta-java>
 # Exemplo com Maven
